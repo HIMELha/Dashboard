@@ -45,7 +45,7 @@
   <!-- Vendor JS Files -->
   <script src="{{ asset('adminAssets/vendor/apexcharts/apexcharts.min.js') }}"></script>
   <script src="{{ asset('adminAssets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('adminAssets/vendor/chart.js') }}/chart.umd.js') }}"></script>
+  <script src="{{ asset('adminAssets/vendor/chart.js/chart.umd.js') }}"></script>
   <script src="{{ asset('adminAssets/vendor/echarts/echarts.min.js') }}"></script>
   <script src="{{ asset('adminAssets/vendor/quill/quill.min.js') }}"></script>
   <script src="{{ asset('adminAssets/vendor/simple-datatables/simple-datatables.js') }}"></script>

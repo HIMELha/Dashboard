@@ -24,4 +24,6 @@ Route::group( ['prefix' => 'admin'], function () {
     Route::get( 'profile', [DashboardController::class, 'profile'] )->name( 'profile' );
     Route::get( 'paymentSettings', [DashboardController::class, 'paymentSettings'] )->name( 'paymentSettings' );
     Route::get( 'settings', [DashboardController::class, 'settings'] )->name( 'settings' );
+
+    Route::get( 'create', [DashboardController::class, 'create'] )->name( 'create' );
 } );

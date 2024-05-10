@@ -7,6 +7,10 @@ class DashboardController extends Controller {
         return view( 'admin.auth.login' );
     }
 
+    function create() {
+        return view( 'admin.create' );
+    }
+
     function dashboard() {
         return view( 'admin.dashboard' );
     }
